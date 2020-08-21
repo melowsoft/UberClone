@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		CEE85EC924F012B700EA6A9D /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE85EC824F012B700EA6A9D /* SignUpController.swift */; };
 		CEE85ECB24F04EC300EA6A9D /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE85ECA24F04EC300EA6A9D /* AuthButton.swift */; };
 		CEE85ECD24F0569D00EA6A9D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE85ECC24F0569D00EA6A9D /* GoogleService-Info.plist */; };
+		CEE85ECF24F066F900EA6A9D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE85ECE24F066F900EA6A9D /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		CEE85EC824F012B700EA6A9D /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		CEE85ECA24F04EC300EA6A9D /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 		CEE85ECC24F0569D00EA6A9D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CEE85ECE24F066F900EA6A9D /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		DCC77B97B0698C30C29D9BF4 /* Pods_Uber_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uber_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -54,7 +56,6 @@
 				3C9B0E1A2EA7207B2E70DBDE /* Pods-Uber Clone.debug.xcconfig */,
 				204C8E7B8A2B2C663F7B1304 /* Pods-Uber Clone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -107,6 +108,7 @@
 			children = (
 				CEE85EC424EEBB2500EA6A9D /* LoginController.swift */,
 				CEE85EC824F012B700EA6A9D /* SignUpController.swift */,
+				CEE85ECE24F066F900EA6A9D /* HomeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -258,6 +260,7 @@
 			files = (
 				CEE85EC924F012B700EA6A9D /* SignUpController.swift in Sources */,
 				CEE85ECB24F04EC300EA6A9D /* AuthButton.swift in Sources */,
+				CEE85ECF24F066F900EA6A9D /* HomeController.swift in Sources */,
 				CEE85EC524EEBB2500EA6A9D /* LoginController.swift in Sources */,
 				CEE85EAC24EEBA4D00EA6A9D /* AppDelegate.swift in Sources */,
 				CEE85EAE24EEBA4D00EA6A9D /* SceneDelegate.swift in Sources */,

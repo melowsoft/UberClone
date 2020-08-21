@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Uber Clone
 //
-//  Created by User on 20/08/2020.
-//  Copyright © 2020 User. All rights reserved.
+//  Created by Tony Stack on 20/08/2020.
+//  Copyright © 2020 Tony Stack. All rights reserved.
 //
 
 import UIKit
